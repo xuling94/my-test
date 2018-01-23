@@ -4,6 +4,7 @@ import struct
 import socket
 from collections import deque
 from traceback import extract_stack
+from .utils import *
 
 from tornado.ioloop import IOLoop
 from tornado.gen import coroutine, Return, Future

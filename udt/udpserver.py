@@ -3,6 +3,7 @@ from collections import deque
 
 from .udpclient import *
 from .udpclient import _ERRNO_WOULDBLOCK
+from .utils import *
 
 from tornado.ioloop import IOLoop
 from tornado.gen import coroutine, Return, Future
