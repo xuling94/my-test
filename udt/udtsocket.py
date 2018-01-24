@@ -2,6 +2,7 @@ import socket
 import random
 from .udpclient import *
 from .udpserver import *
+from .udpsocket import *
 from .packet import *
 from .sequence import *
 
